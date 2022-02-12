@@ -26,14 +26,6 @@ body {
     align-items: center;
 }
 
-.player-profile {
-    width: 100px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-left: 1px solid white;
-}
-
 .player-form-container {
     padding: 50px;
     width: 400px;
@@ -53,5 +45,18 @@ body {
 .player-form button {
     margin: 10px;
     padding: 10px;
+}
+
+.player-profile {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.profile-list {
+    list-style: none;
 }
 
